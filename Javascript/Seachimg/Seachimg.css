@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 2rem 15rem;
+    text-align: center;
+}
+
+h1 {
+    font-family: fantasy;
+    font-size: 4rem;
+}
+
+input {
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+
+    width: 20%;
+    height: 50px;
+
+    padding: 20px;
+    margin-bottom: 42px;
+
+    font-size: 20px;
+}
+
+input:focus {
+    outline: none;
+}

@@ -15,7 +15,7 @@
 
 /* Scroll-js */
 .nav-active {
-    background-color: rgb(29, 29, 29);
+    background-color: rgb(26, 24, 24);
 }
 /* fade link */
 #link-1 {
@@ -459,7 +459,7 @@
 
 .Assignment .item-1 h1 {
     position: absolute;
-    top: 0;
+    top: 30%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
     font-family: 'Redressed', cursive;
@@ -476,7 +476,7 @@
 
 .Assignment .item-1 button {
     position: absolute;
-    top: 45%;
+    top: 60%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
     width: 35%;
@@ -525,7 +525,7 @@
 
 .Assignment .item-2 h1 {
     position: absolute;
-    top: 0;
+    top: 30%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
     font-family: 'Redressed', cursive;
@@ -542,7 +542,7 @@
 
 .Assignment .item-2 button {
     position: absolute;
-    top: 45%;
+    top: 60%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
     width: 35%;
@@ -592,7 +592,7 @@
 
 .Assignment .item-3 h1 {
     position: absolute;
-    top: 0;
+    top: 30%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
     font-family: 'Redressed', cursive;
@@ -609,7 +609,7 @@
 
 .Assignment .item-3 button {
     position: absolute;
-    top: 45%;
+    top: 60%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
     width: 35%;
@@ -659,7 +659,7 @@
 
 .Assignment .item-4 h1 {
     position: absolute;
-    top: 0;
+    top: 30%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
     font-family: 'Redressed', cursive;
@@ -676,7 +676,7 @@
 
 .Assignment .item-4 button {
     position: absolute;
-    top: 45%;
+    top: 60%;;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
     width: 35%;
@@ -713,6 +713,92 @@
 .Assignment .click-view h1 {
     color: rgb(141, 127, 5);
 }
+
 /* Final Assignment */
+/* skill */
+
+.skill .headline {
+    padding-top: 13%;
+}
+.skill .headline p {
+    color: rgb(141, 127, 5);
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 30px;
+}
+.skill .headline h1{
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 55px;
+}
+
+.skill ul {
+    list-style: none;
+    display: flex;
+    margin-top: 6%;
+    align-items: center;
+    justify-content: space-between;
+    width: 30%;
+}
+
+.skill ul button {
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 27px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.skill .show-work #all {
+    display: grid;
+    margin-top: 5%;
+    grid-template-columns: 25% 25% 25% 25%;
+    column-gap: 2%;
+    row-gap: 8%;
+    display: none;
+    padding-bottom: 20%;
+}
+
+
+.skill .show-work #all img {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 1px 1px 4px black;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.skill .show-work #css {
+    display: grid;
+    margin-top: 5%;
+    grid-template-columns: 25% 25% 25% 25%;
+    column-gap: 2%;
+    row-gap: 8%;
+    display: none;
+    padding-bottom: 20%;
+}   
+
+.skill .show-work #css img {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 1px 1px 4px black;
+}
+
+.skill .show-work #java {
+    display: grid;
+    margin-top: 5%;
+    grid-template-columns: 25% 25% 25% 25%;
+    column-gap: 2%;
+    row-gap: 8%;
+    padding-bottom: 20%;
+    display: none;
+    transition: opacity 1s ease-out;
+}
+
+.skill .show-work #java img {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 1px 1px 4px black;
+}
+
 
  

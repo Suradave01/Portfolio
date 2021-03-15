@@ -26,9 +26,46 @@ window.onscroll = () => {
         nav2.classList.remove('nav-2');
         nav3.classList.add('nav-3');
     }
-
-
-        
-    
 };
 
+
+window.onload = pageload;
+const btnall = document.getElementById('btnAll');
+const btncss = document.getElementById('btnCss');
+const btnjava = document.getElementById('btnJava');
+function pageload() {
+    const ShowAll = document.getElementById('all');
+    const ShowCss = document.getElementById('css');
+    const ShowJava = document.getElementById('java')
+
+    ShowAll.style.display = 'grid';
+    ShowAll.style.transitionDelay = '250ms'
+    ShowCss.style.display = 'none';
+    ShowJava.style.display = 'none';
+}
+
+btnall.addEventListener('click',pageload);
+
+
+
+const ShowCssFunC = () => {
+    const ShowAll = document.getElementById('all');
+    const ShowCss = document.getElementById('css');
+    const ShowJava = document.getElementById('java')
+
+    ShowAll.style.display = 'none';
+    ShowCss.style.display = 'grid';
+    ShowJava.style.display = 'none';
+}
+btncss.addEventListener('click',ShowCssFunC);
+
+const ShowJava = () => {
+    const ShowAll = document.getElementById('all');
+    const ShowCss = document.getElementById('css');
+    const ShowJava = document.getElementById('java')
+
+    ShowAll.style.display = 'none';
+    ShowCss.style.display = 'none';
+    ShowJava.style.display = 'grid';
+}
+btnjava.addEventListener('click',ShowJava);
