@@ -31,5 +31,5 @@ html {
 }
 
 a {
-    cursor: none !important;
+    cursor: pointer !important;
 }

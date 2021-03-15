@@ -743,9 +743,42 @@
     font-family: 'Akaya Telivigala', cursive;
     font-size: 27px;
     background-color: #fff;
-    border: none;
-    outline: none;
+    border: none;   
+    outline: none;  
+    cursor: pointer;    
+}
+
+.skill ul .buttonAll {
+    background-color: rgb(75, 74, 74);
+    color: rgb(216, 204, 96);
     cursor: pointer;
+    border-radius: 20px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    transition: 0.8s;   
+}
+
+.skill ul .buttonCss {
+    background-color: rgb(75, 74, 74);
+    color: rgb(216, 204, 96);
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    transition: 0.8s;
+}
+
+.skill ul .buttonJava {
+    background-color: rgb(75, 74, 74);
+    color: rgb(216, 204, 96);
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    transition: 0.8s;
 }
 
 .skill .show-work #all {
@@ -757,7 +790,6 @@
     display: none;
     padding-bottom: 20%;
 }
-
 
 .skill .show-work #all img {
     width: 100%;

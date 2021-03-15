@@ -16,16 +16,27 @@ window.onscroll = () => {
         nav1.classList.add('nav-1')
         nav2.classList.remove('nav-2');
         nav3.classList.remove('nav-3');
+        nav4.classList.remove('nav-4')
     }
     else if ( window.scrollY > 900 && window.scrollY < 2000) {
         nav1.classList.remove('nav-1');
         nav2.classList.add('nav-2');
         nav3.classList.remove('nav-3');
+        nav4.classList.remove('nav-4')
     }
-    else if ( window.scrollY > 2000 && window.scrollY < 3000 ) {
+    else if ( window.scrollY > 2000 && window.scrollY < 2700 ) {
+        nav1.classList.remove('nav-1');
         nav2.classList.remove('nav-2');
         nav3.classList.add('nav-3');
+        nav4.classList.remove('nav-4')
     }
+    else if ( window.scrollY > 2700 && window.scrollY < 3300) {
+        nav1.classList.remove('nav-1');
+        nav2.classList.remove('nav-2');
+        nav3.classList.remove('nav-3');
+        nav4.classList.add('nav-4')
+    }
+
 };
 
 
@@ -37,6 +48,10 @@ function pageload() {
     const ShowAll = document.getElementById('all');
     const ShowCss = document.getElementById('css');
     const ShowJava = document.getElementById('java')
+
+    btnall.classList.add('buttonAll');
+    btncss.classList.remove('buttonCss');
+    btnjava.classList.remove('buttonJava');
 
     ShowAll.style.display = 'grid';
     ShowAll.style.transitionDelay = '250ms'
@@ -53,6 +68,10 @@ const ShowCssFunC = () => {
     const ShowCss = document.getElementById('css');
     const ShowJava = document.getElementById('java')
 
+    btnall.classList.remove('buttonAll');
+    btncss.classList.add('buttonCss');
+    btnjava.classList.remove('buttonJava');
+
     ShowAll.style.display = 'none';
     ShowCss.style.display = 'grid';
     ShowJava.style.display = 'none';
@@ -63,6 +82,10 @@ const ShowJava = () => {
     const ShowAll = document.getElementById('all');
     const ShowCss = document.getElementById('css');
     const ShowJava = document.getElementById('java')
+
+    btnall.classList.remove('buttonAll');
+    btncss.classList.remove('buttonCss');
+    btnjava.classList.add('buttonJava');
 
     ShowAll.style.display = 'none';
     ShowCss.style.display = 'none';
