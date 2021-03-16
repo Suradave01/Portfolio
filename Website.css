@@ -108,7 +108,7 @@
 
 .nav-bar {
     position: fixed;
-    z-index: 99;
+    z-index: 100;
     top: 0;
     left: 0;
     padding: 1% 5%;
@@ -783,7 +783,7 @@
 
 .skill .show-work #all {
     display: grid;
-    margin-top: 5%;
+    margin-top: 10%;
     grid-template-columns: 25% 25% 25% 25%;
     column-gap: 2%;
     row-gap: 8%;
@@ -792,32 +792,39 @@
 }
 
 .skill .show-work #all img {
+    position: relative;
     width: 100%;
     border-radius: 20px;
-    box-shadow: 1px 1px 4px black;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
+    z-index: 99;
+}
+
+.skill .show-work #all img {
+    position: relative;
+    width: 100%;
+    border-radius: 20px;
+    z-index: 99;
 }
 
 .skill .show-work #css {
     display: grid;
-    margin-top: 5%;
+    margin-top: 10%;
     grid-template-columns: 25% 25% 25% 25%;
     column-gap: 2%;
-    row-gap: 8%;
+    row-gap: 12%;
     display: none;
     padding-bottom: 20%;
 }   
 
 .skill .show-work #css img {
+    position: relative;
     width: 100%;
     border-radius: 20px;
-    box-shadow: 1px 1px 4px black;
+    z-index: 99;
 }
 
 .skill .show-work #java {
     display: grid;
-    margin-top: 5%;
+    margin-top: 10%;
     grid-template-columns: 25% 25% 25% 25%;
     column-gap: 2%;
     row-gap: 8%;
@@ -827,10 +834,429 @@
 }
 
 .skill .show-work #java img {
+    position: relative;
     width: 100%;
     border-radius: 20px;
-    box-shadow: 1px 1px 4px black;
+    z-index: 99;
 }
+
+.skill .show-work .web-1 {
+    position: relative;
+    transition: 0.7s;
+}
+
+.skill .show-work .web-1:hover img {
+    filter: brightness(0.6);
+    border-radius: 15%;
+    transition: 0.7s;
+}
+
+.skill .show-work .web-1 h1 {
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translateX(-50%) translateY(-50%);
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 30px;
+    width: 100%;
+    transition: 0.7s;
+}
+
+.skill .show-work .web-1:hover h1 {
+    top: -13%;
+}
+
+.skill .show-work .web-2 {
+    position: relative;
+}
+
+.skill .show-work .web-2:hover img {
+    filter: brightness(0.6);
+    border-radius: 15%;
+    transition: 0.7s;
+}
+
+.skill .show-work .web-2 h1 {
+    position: absolute;
+    top: 50%;
+    left: 67%;
+    transform: translateX(-50%) translateY(-50%);
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 30px;
+    width: 100%;
+    transition: 0.7s;
+}
+
+.skill .show-work .web-2:hover h1 {
+    top: -13%;
+}
+
+.skill .show-work .web-3 {
+    position: relative;
+}
+
+.skill .show-work .web-3:hover img {
+    filter: brightness(0.6);
+    border-radius: 15%;
+    transition: 0.7s;
+}
+
+.skill .show-work .web-3 h1 {
+    position: absolute;
+    top: 50%;
+    left: 67%;
+    transform: translateX(-50%) translateY(-50%);
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 30px;
+    width: 100%;
+    transition: 0.7s;
+}
+
+.skill .show-work .web-3:hover h1 {
+    top: -13%;
+}
+
+.skill .show-work .web-4 {
+    position: relative;
+}
+
+.skill .show-work .web-4:hover img {
+    filter: brightness(0.6);
+    border-radius: 15%;
+    transition: 0.7s;
+}
+
+.skill .show-work .web-4 h1 {
+    position: absolute;
+    top: 50%;
+    left: 67%;
+    transform: translateX(-50%) translateY(-50%);
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 30px;
+    width: 100%;
+    transition: 0.7s;
+}
+
+.skill .show-work .web-4:hover h1 {
+    top: -13%;
+}
+
+.skill .show-work .web-5 {
+    position: relative;
+}
+
+.skill .show-work .web-5:hover img {
+    filter: brightness(0.6);
+    border-radius: 15%;
+    transition: 0.7s;
+}
+
+.skill .show-work .web-5 h1 {
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translateX(-50%) translateY(-50%);
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 30px;
+    width: 100%;
+    transition: 0.7s;
+}
+
+.skill .show-work .web-5:hover h1 {
+    top: -13%;
+}
+
+.skill .show-work .web-6 {
+    position: relative;
+}
+
+.skill .show-work .web-6:hover img {
+    filter: brightness(0.6);
+    border-radius: 15%;
+    transition: 0.7s;
+}
+
+.skill .show-work .web-6 h1 {
+    position: absolute;
+    top: 50%;
+    left: 85%;
+    transform: translateX(-50%) translateY(-50%);
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 30px;
+    width: 100%;
+    transition: 0.7s;
+}
+
+.skill .show-work .web-6:hover h1 {
+    top: -13%;
+}
+
+.skill .show-work .web-7 {
+    position: relative;
+}
+
+.skill .show-work .web-7:hover img {
+    filter: brightness(0.6);
+    border-radius: 15%;
+    transition: 0.7s;
+}
+
+.skill .show-work .web-7 h1 {
+    position: absolute;
+    top: 50%;
+    left: 67%;
+    transform: translateX(-50%) translateY(-50%);
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 30px;
+    width: 100%;
+    transition: 0.7s;
+}
+
+.skill .show-work .web-7:hover h1 {
+    top: -13%;
+}
+
+.skill .show-work .web-8 {
+    position: relative;
+}
+
+.skill .show-work .web-8:hover img {
+    filter: brightness(0.6);
+    border-radius: 15%;
+    transition: 0.7s;
+}
+
+.skill .show-work .web-8 h1 {
+    position: absolute;
+    top: 50%;
+    left: 73%;
+    transform: translateX(-50%) translateY(-50%);
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 30px;
+    width: 100%;
+    transition: 0.7s;
+}
+
+.skill .show-work .web-8:hover h1 {
+    top: -13%;
+}
+
+.skill .show-work .web-9 {
+    position: relative;
+}
+
+.skill .show-work .web-9:hover img {
+    filter: brightness(0.6);
+    border-radius: 15%;
+    transition: 0.7s;
+}
+
+.skill .show-work .web-9 h1 {
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translateX(-50%) translateY(-50%);
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 30px;
+    width: 100%;
+    transition: 0.7s;
+}
+
+.skill .show-work .web-9:hover h1 {
+    top: -13%;
+}
+
+.skill .show-work .web-10 {
+    position: relative;
+}
+
+.skill .show-work .web-10:hover img {
+    filter: brightness(0.6);
+    border-radius: 15%;
+    transition: 0.7s;
+}
+
+.skill .show-work .web-10 h1 {
+    position: absolute;
+    top: 50%;
+    left: 68%;
+    transform: translateX(-50%) translateY(-50%);
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 30px;
+    width: 100%;
+    transition: 0.7s;
+}
+
+.skill .show-work .web-10:hover h1 {
+    top: -13%;
+}
+
+.skill .show-work .web-11 {
+    position: relative;
+}
+
+.skill .show-work .web-11:hover img {
+    filter: brightness(0.6);
+    border-radius: 15%;
+    transition: 0.7s;
+}
+
+.skill .show-work .web-11 h1 {
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translateX(-50%) translateY(-50%);
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 30px;
+    width: 100%;
+    transition: 0.7s;
+}
+
+.skill .show-work .web-11:hover h1 {
+    top: -13%;
+}
+
+/* Final skill */
+/* Contact */
+
+.contact {
+    background-color: rgb(238, 238, 238);
+    height: 1000px;
+}
+
+.contact .headline {
+    padding-top: 13%;
+}
+
+.contact .headline p {
+    color: rgb(141, 127, 5);
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 30px;
+}
+
+.contact .headline h1{
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 55px;
+}
+
+.contact .detail {
+    margin-top: 7%;
+    display: flex;
+}
+
+.contact .detail iframe {
+    box-shadow: 15px 15px 10px rgb(212, 205, 205);
+    width: 50%;
+    height: 400px;
+    border: none;
+}
+
+.contact .detail .address {
+    margin-left: 7%;
+    width: 50%;
+}
+
+.contact .detail .address .location {
+    display: flex;
+    align-items: center;
+}
+
+.contact .detail .address .location i {
+    margin-left:10%;
+    font-size: 35px;
+}
+
+.contact .detail .address .location p {
+    margin-left:10%;
+    font-family: 'Redressed', cursive;
+    font-size: 25px;
+}
+
+.contact .detail .address .phone {
+    display: flex;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.contact .detail .address .phone i {
+    margin-left:10%;
+    font-size: 35px;
+}
+
+.contact .detail .address .phone p {
+    margin-left:10%;
+    font-family: 'Redressed', cursive;
+    font-size: 25px;
+}
+
+.contact .detail .address .email {
+    display: flex;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.contact .detail .address .email i {
+    margin-left:10%;
+    font-size: 35px;
+}
+
+.contact .detail .address .email p {
+    margin-left:10%;
+    font-family: 'Redressed', cursive;
+    font-size: 25px;
+}
+
+.contact .detail .address hr {
+    border: 1px solid black;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.contact .detail .address .icon {
+    margin-top: 5%;
+    margin-left: 37%;
+}
+
+.contact .detail .address .icon a {
+    margin-right: 7%;
+    font-size: 40px;
+    color: black;
+    transition: 0.7s;
+}
+
+.contact .detail .address .icon a:hover:nth-child(1) {
+    font-size: 80px;
+    color: rgb(16, 53, 214);
+}
+
+.contact .detail .address .icon a:hover:nth-child(2) {
+    font-size: 80px;
+    background: linear-gradient(210deg,rgb(185, 13, 253),rgb(255, 169, 70));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.contact .detail .address .icon a:hover:nth-child(3) {
+    font-size: 80px;
+    color: rgb(81, 173, 19);
+}
+
+/* Final Contact */
+/* Footer */
+
+.footer {
+    background-color: black;
+    color: white;
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Akaya Telivigala', cursive;
+    padding-top: 5%;
+}
+
+
 
 
  

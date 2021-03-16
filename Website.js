@@ -17,24 +17,35 @@ window.onscroll = () => {
         nav2.classList.remove('nav-2');
         nav3.classList.remove('nav-3');
         nav4.classList.remove('nav-4')
+        nav5.classList.remove('nav-5')
     }
     else if ( window.scrollY > 900 && window.scrollY < 2000) {
         nav1.classList.remove('nav-1');
         nav2.classList.add('nav-2');
         nav3.classList.remove('nav-3');
         nav4.classList.remove('nav-4')
+        nav5.classList.remove('nav-5')
     }
     else if ( window.scrollY > 2000 && window.scrollY < 2700 ) {
         nav1.classList.remove('nav-1');
         nav2.classList.remove('nav-2');
         nav3.classList.add('nav-3');
         nav4.classList.remove('nav-4')
+        nav5.classList.remove('nav-5')
     }
-    else if ( window.scrollY > 2700 && window.scrollY < 3300) {
+    else if ( window.scrollY > 2700 && window.scrollY < 4500) {
         nav1.classList.remove('nav-1');
         nav2.classList.remove('nav-2');
         nav3.classList.remove('nav-3');
         nav4.classList.add('nav-4')
+        nav5.classList.remove('nav-5')
+    }
+    else if ( window.scrollY > 4900) {
+        nav1.classList.remove('nav-1');
+        nav2.classList.remove('nav-2');
+        nav3.classList.remove('nav-3');
+        nav4.classList.remove('nav-4')
+        nav5.classList.add('nav-5')
     }
 
 };
