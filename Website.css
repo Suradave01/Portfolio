@@ -1233,7 +1233,7 @@
 .contact .detail .address .icon a:hover:nth-child(2) {
     font-size: 80px;
     background: linear-gradient(210deg,rgb(185, 13, 253),rgb(255, 169, 70));
-    background-clip: text;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
