@@ -145,6 +145,7 @@
     left: 0;
     top: 100px;
     padding: 2%;
+    display: none;
 }
 
 .nav-bar .logo a {
@@ -541,7 +542,7 @@
     width: 100%;
     position: relative;
     background-color: rgb(238, 238, 238);
-    /* height: 1400px; */
+    height: 1400px;
 }
 
 .Assignment .headline {
