@@ -6,7 +6,7 @@ const nav4 = document.getElementById('link-4');
 const nav5 = document.getElementById('link-5');
 
 window.onscroll = () => {
-    if (window.scrollY > 900) {
+    if (window.scrollY > 150) {
         navbar.classList.add('nav-active');
     } 
     else {
@@ -65,7 +65,6 @@ function pageload() {
     btnjava.classList.remove('buttonJava');
 
     ShowAll.style.display = 'grid';
-    ShowAll.style.transitionDelay = '250ms'
     ShowCss.style.display = 'none';
     ShowJava.style.display = 'none';
 }
@@ -77,15 +76,16 @@ btnall.addEventListener('click',pageload);
 const ShowCssFunC = () => {
     const ShowAll = document.getElementById('all');
     const ShowCss = document.getElementById('css');
-    const ShowJava = document.getElementById('java')
-
+    const ShowJava = document.getElementById('java');
+    
+    ShowCss.style.display = 'grid';
+    ShowAll.style.display = 'none';
+    ShowJava.style.display = 'none';
+    
     btnall.classList.remove('buttonAll');
     btncss.classList.add('buttonCss');
     btnjava.classList.remove('buttonJava');
-
-    ShowAll.style.display = 'none';
-    ShowCss.style.display = 'grid';
-    ShowJava.style.display = 'none';
+        
 }
 btncss.addEventListener('click',ShowCssFunC);
 

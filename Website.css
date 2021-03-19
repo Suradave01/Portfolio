@@ -13,6 +13,11 @@
     margin: 0 auto;
 }
 
+.website {
+    width: 100%;
+    display: block;
+}
+
 /* Scroll-js */
 .nav-active {
     background-color: rgb(26, 24, 24);
@@ -100,6 +105,7 @@
 /* Tophead */
 
 .top-header {
+    position: relative;
     max-height: 1020px;
     height: 100%;
     width: 100%;
@@ -127,6 +133,49 @@
 
 .nav-bar b {
     color: rgb(216, 204, 96);
+}
+
+.nav-bar .logo {
+    background-color: rgb(0, 0, 0);
+    height: 3800px;
+    width: 10%;
+    position: absolute;
+    font-size: 45px;
+    flex-direction: column;
+    left: 0;
+    top: 100px;
+    padding: 2%;
+}
+
+.nav-bar .logo a {
+    padding-top: 30%;
+    color: rgb(128, 125, 125);
+}
+
+.nav-bar .logo a:focus {
+    background-color:none;
+    outline: none;
+}
+
+.nav-bar .logo a:nth-child(2) {
+    padding-left: 12%;
+}
+
+.nav-bar .logo a:nth-child(3) {
+    padding-left: 3%;
+}
+
+.nav-bar .logo a:nth-child(4) {
+    padding-left: 10%;
+}
+
+.nav-bar .logo i {
+    margin-top: 80%;
+    transition: 0.6s;
+}
+
+.nav-bar .logo i:hover {
+    color: rgb(141, 127, 5);
 }
 
 .nav-bar ul {
@@ -158,7 +207,7 @@
     text-align: center;
 }
 
-.top-header .profile img{   
+.top-header .profile img {   
     width: 24%;
     margin-top: 10%;
     border: 10px solid gray;
@@ -186,11 +235,52 @@
     padding-bottom: 13%;
 }
 
-@media screen and ( max-width: 1260px ) {
+@media only screen and ( max-width: 1260px ) {
+    .top-header {
+        position: relative;
+        height: 1000px;
+    }
     .nav-bar ul {
         width: 60%;
     }
+    .nav-bar .logo {
+        display: none;
+    }
+    .top-header .profile img {   
+        width: 45%;
+        margin-top: 20%;
+        border: 10px solid gray;
+        border-radius: 100%;
+    }
 }
+
+@media only screen and ( max-width: 880px ) {
+    .nav-active {
+        background-color: rgb(0, 0, 0);
+    }
+    .nav-bar h1 {
+        /* padding-left: 35%; */
+        color: rgb(216, 204, 96);
+        font-family: 'Redressed', cursive;
+        font-size: 75px;
+    }
+    
+    .nav-bar b {
+        color: white;
+    }
+    .nav-bar ul {
+        display: none;
+    }
+    .nav-bar .logo {
+        display: flex;
+    }
+}
+@media only screen and ( max-width: 700px ) {
+    .nav-bar .logo {
+        font-size: 30px;
+    }
+}
+
 
 /* Final Tophead */
 /* Profile */
@@ -202,6 +292,7 @@
 .about-me .headline {
     padding-top: 13%;
 }
+
 .about-me .headline p {
     color: rgb(141, 127, 5);
     font-family: 'Akaya Telivigala', cursive;
@@ -232,7 +323,7 @@
 
 .about-me .profile .detail {
     margin-top: 7%;
-    width: 60%;
+    width: 100%;
 }
 
 .about-me .profile .detail h2 {
@@ -415,13 +506,42 @@
     padding-left: 5%;
 }
 
+@media only screen and ( max-width: 880px ) {
+    .about-me {
+        height: 1500px;
+    }
+    .about-me .headline {
+        padding-top: 20%;
+    }
+    .about-me .profile {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .about-me .profile img {
+        width: 50%;
+        border-radius: 10%;
+        outline: none;
+        margin-top: 10%;
+    }
+    .about-me .profile .detail {
+        margin-top: 15%;
+        width: 100%;
+    }
+}
+
+
+
+
+
 /* Final Item-8 */
 /* Final Profile */
 /* Assignment */
 .Assignment {
+    width: 100%;
     position: relative;
     background-color: rgb(238, 238, 238);
-    height: 1400px;
+    /* height: 1400px; */
 }
 
 .Assignment .headline {
@@ -723,6 +843,77 @@
 .Assignment .click-view h1 {
     color: rgb(141, 127, 5);
 }
+
+@media only screen and ( max-width: 1024px ) {
+    .Assignment {
+        height: 2500px;
+    }
+    .Assignment .headline {
+        padding-top: 20%;
+    }
+    .Assignment .grid-container {
+        margin-top: 14%;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 25% 25% 25% 25%;
+        row-gap: 5%;
+    }
+    .Assignment .item-1 {
+        grid-row: 1 / span 1;
+    }
+    .Assignment .item-2 {
+        grid-column: 1 / span 1;
+        grid-row: 2 / span 1;
+    }
+    .Assignment .item-3 {
+        grid-row: 3 / span 1;
+    }
+    .Assignment .item-4 {
+        grid-column: 1 / span 1;
+        grid-row: 4 / span 1;
+    }
+    .Assignment .click-view {
+        display: none;
+    }
+}
+
+@media only screen and ( max-width: 880px ) {
+    .Assignment {
+        height: 2100px;
+    }
+    .Assignment .headline {
+        padding-top: 20%;
+    }
+    .Assignment .grid-container {
+        margin-top: 14%;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 25% 25% 25% 25%;
+        row-gap: 5%;
+    }
+    .Assignment .item-1 {
+        grid-row: 1 / span 1;
+    }
+    .Assignment .item-2 {
+        grid-column: 1 / span 1;
+        grid-row: 2 / span 1;
+    }
+    .Assignment .item-3 {
+        grid-row: 3 / span 1;
+    }
+    .Assignment .item-4 {
+        grid-column: 1 / span 1;
+        grid-row: 4 / span 1;
+    }
+    .Assignment .click-view {
+        display: none;
+    }
+    
+}
+
+
+
+
 
 /* Final Assignment */
 /* skill */
@@ -1126,6 +1317,7 @@
     top: -13%;
 }
 
+
 /* Final skill */
 /* Contact */
 
@@ -1229,7 +1421,7 @@
 }
 
 .contact .detail .address .icon a {
-    margin-right: 7%;
+    /* margin-right: 7%; */
     font-size: 40px;
     color: black;
     transition: 0.7s;
@@ -1252,6 +1444,8 @@
     color: rgb(81, 173, 19);
 }
 
+
+
 /* Final Contact */
 /* Footer */
 
@@ -1265,6 +1459,7 @@
     font-family: 'Akaya Telivigala', cursive;
     padding-top: 5%;
 }
+
 
 
 
