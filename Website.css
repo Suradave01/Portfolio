@@ -236,52 +236,6 @@
     padding-bottom: 13%;
 }
 
-@media only screen and ( max-width: 1260px ) {
-    .top-header {
-        position: relative;
-        height: 1000px;
-    }
-    .nav-bar ul {
-        width: 60%;
-    }
-    .nav-bar .logo {
-        display: none;
-    }
-    .top-header .profile img {   
-        width: 45%;
-        margin-top: 20%;
-        border: 10px solid gray;
-        border-radius: 100%;
-    }
-}
-
-@media only screen and ( max-width: 880px ) {
-    .nav-active {
-        background-color: rgb(0, 0, 0);
-    }
-    .nav-bar h1 {
-        /* padding-left: 35%; */
-        color: rgb(216, 204, 96);
-        font-family: 'Redressed', cursive;
-        font-size: 75px;
-    }
-    
-    .nav-bar b {
-        color: white;
-    }
-    .nav-bar ul {
-        display: none;
-    }
-    .nav-bar .logo {
-        display: flex;
-    }
-}
-@media only screen and ( max-width: 700px ) {
-    .nav-bar .logo {
-        font-size: 30px;
-    }
-}
-
 
 /* Final Tophead */
 /* Profile */
@@ -324,7 +278,7 @@
 
 .about-me .profile .detail {
     margin-top: 7%;
-    width: 100%;
+    width: 60%;
 }
 
 .about-me .profile .detail h2 {
@@ -506,34 +460,6 @@
     font-family: 'Redressed', cursive;
     padding-left: 5%;
 }
-
-@media only screen and ( max-width: 880px ) {
-    .about-me {
-        height: 1500px;
-    }
-    .about-me .headline {
-        padding-top: 20%;
-    }
-    .about-me .profile {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-    }
-    .about-me .profile img {
-        width: 50%;
-        border-radius: 10%;
-        outline: none;
-        margin-top: 10%;
-    }
-    .about-me .profile .detail {
-        margin-top: 15%;
-        width: 100%;
-    }
-}
-
-
-
-
 
 /* Final Item-8 */
 /* Final Profile */
@@ -877,43 +803,6 @@
         display: none;
     }
 }
-
-@media only screen and ( max-width: 880px ) {
-    .Assignment {
-        height: 2100px;
-    }
-    .Assignment .headline {
-        padding-top: 20%;
-    }
-    .Assignment .grid-container {
-        margin-top: 14%;
-        display: grid;
-        grid-template-columns: 100%;
-        grid-template-rows: 25% 25% 25% 25%;
-        row-gap: 5%;
-    }
-    .Assignment .item-1 {
-        grid-row: 1 / span 1;
-    }
-    .Assignment .item-2 {
-        grid-column: 1 / span 1;
-        grid-row: 2 / span 1;
-    }
-    .Assignment .item-3 {
-        grid-row: 3 / span 1;
-    }
-    .Assignment .item-4 {
-        grid-column: 1 / span 1;
-        grid-row: 4 / span 1;
-    }
-    .Assignment .click-view {
-        display: none;
-    }
-    
-}
-
-
-
 
 
 /* Final Assignment */
@@ -1418,7 +1307,7 @@
 
 .contact .detail .address .icon {
     margin-top: 5%;
-    margin-left: 37%;
+    text-align: center;
 }
 
 .contact .detail .address .icon a {
@@ -1444,8 +1333,6 @@
     font-size: 80px;
     color: rgb(81, 173, 19);
 }
-
-
 
 /* Final Contact */
 /* Footer */
