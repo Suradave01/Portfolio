@@ -13,10 +13,6 @@
     margin: 0 auto;
 }
 
-.website {
-    width: 100%;
-    display: block;
-}
 
 /* Scroll-js */
 .nav-active {
@@ -45,8 +41,6 @@
 /* Follow link */
 .nav-1 {
     background-color: rgb(75, 74, 74);
-    color: rgb(216, 204, 96);
-    transition: 0.6s;
     cursor: pointer;
     border-radius: 20px;
     padding: 10px;
@@ -57,8 +51,6 @@
 
 .nav-2 {
     background-color: rgb(75, 74, 74);
-    color: rgb(216, 204, 96);
-    transition: 0.6s;
     cursor: pointer;
     border-radius: 20px;
     padding: 10px;
@@ -69,8 +61,6 @@
 
 .nav-3 {
     background-color: rgb(75, 74, 74);
-    color: rgb(216, 204, 96);
-    transition: 0.6s;
     cursor: pointer;
     border-radius: 20px;
     padding: 10px;
@@ -81,8 +71,6 @@
 
 .nav-4 {
     background-color: rgb(75, 74, 74);
-    color: rgb(216, 204, 96);
-    transition: 0.6s;
     cursor: pointer;
     border-radius: 20px;
     padding: 10px;
@@ -93,14 +81,37 @@
 
 .nav-5 {
     background-color: rgb(75, 74, 74);
-    color: rgb(216, 204, 96);
-    transition: 0.6s;
     cursor: pointer;
     border-radius: 20px;
     padding: 10px;
     outline: none;
     border: none;
     transition: 0.6s;
+}
+.icon1 {
+    border-bottom: 10px solid rgb(141, 127, 5);
+    transition: 0.6s;
+    outline: none;
+}
+.icon2 {
+    border-bottom: 10px solid rgb(141, 127, 5);
+    transition: 0.6s;
+    outline: none;
+}
+.icon3 {
+    border-bottom: 10px solid rgb(141, 127, 5);
+    transition: 0.6s;
+    outline: none;
+}
+.icon4 {
+    border-bottom: 10px solid rgb(141, 127, 5);
+    transition: 0.6s;
+    outline: none;
+}
+.icon5 {
+    border-bottom: 10px solid rgb(141, 127, 5);
+    transition: 0.6s;
+    outline: none;
 }
 /* Tophead */
 
@@ -134,7 +145,6 @@
 }
 
 .nav-bar .logo {
-    background-color: rgb(0, 0, 0);
     width: 10%;
     position: absolute;
     font-size: 45px;
@@ -1293,6 +1303,325 @@
     font-size: 30px;
     font-family: 'Akaya Telivigala', cursive;
     padding: 5%;
+}
+
+/* media query */
+
+@media only screen and ( max-width: 1440px ) {
+    .skill .show-work .web-1 h1 {
+        font-size: 20px;
+        padding-left: 6%;
+    }
+    .skill .show-work .web-2 h1 {
+        font-size: 20px;
+        padding-left: 6%;
+    }
+    .skill .show-work .web-3 h1 {
+        font-size: 20px;
+        padding-left: 6%;
+    }
+    .skill .show-work .web-4 h1 {
+        font-size: 20px;
+        padding-left: 6%;
+    }
+    .skill .show-work .web-5 h1 {
+        font-size: 20px;
+        padding-left: 6%;
+    }
+    .skill .show-work .web-6 h1 {
+        font-size: 20px;
+        padding-left: 4%;
+    }
+    .skill .show-work .web-7 h1 {
+        font-size: 20px;
+        padding-left: 6%;
+    }
+    .skill .show-work .web-8 h1 {
+        font-size: 20px;
+        padding-left: 6%;
+    }
+    .skill .show-work .web-9 h1 {
+        font-size: 20px;
+        padding-left: 6%;
+    }
+    .skill .show-work .web-10 h1 {
+        font-size: 20px;
+        padding-left: 6%;
+    }
+    .skill .show-work .web-11 h1 {
+        font-size: 20px;
+        padding-left: 8%;
+    }
+}
+
+@media only screen and ( max-width: 1024px ) {
+    .top-header ul {
+        display: none;
+    }
+    .top-header .logo {
+        display: flex;
+    }
+    .nav-bar h1 {
+        margin: 0 auto;
+    }
+    .about-me .profile {
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .about-me .profile img {
+        width: 60%;
+    }
+    .about-me .profile .detail h2 {
+        font-size: 48px;
+        width: 100%;
+    }
+    .about-me .profile .detail blockquote {
+        font-size: 30px;
+        width: 100%;
+        text-align: left;
+    }
+    .about-me .profile .grid-container .item-1 i {
+        font-size: 30px;
+    }
+    .about-me .profile .grid-container .item-1 p {
+        font-size: 20px;
+        font-family: 'Redressed', cursive;
+        padding-left: 8%;
+    }
+    .about-me .profile .grid-container .item-2 i {
+        padding-left: 2%;
+        font-size: 30px;
+    }
+    .about-me .profile .grid-container .item-2 p {
+        font-size: 20px;
+        font-family: 'Redressed', cursive;
+    }
+    .about-me .profile .grid-container .item-3 i {
+        font-size: 30px;
+        padding-left: 1%;
+    }
+    .about-me .profile .grid-container .item-3 p {
+        font-size: 20px;
+        font-family: 'Redressed', cursive;
+        padding-left: 9%;
+    }
+    .about-me .profile .grid-container .item-4 i {
+        font-size: 30px;
+        padding-left: 1%;
+    }
+    .about-me .profile .grid-container .item-4 p {
+        font-size: 20px;
+        font-family: 'Redressed', cursive;
+    }
+    .about-me .profile .grid-container .item-5 i {
+        font-size: 30px;
+        padding-left: 1%;
+    }
+    .about-me .profile .grid-container .item-5 p {
+        font-size: 20px;
+        font-family: 'Redressed', cursive;
+    }
+    .about-me .profile .grid-container .item-6 i {
+        font-size: 30px;
+        padding-left: 1%;
+    }
+    .about-me .profile .grid-container .item-6 p {
+        font-size: 20px;
+        font-family: 'Redressed', cursive;
+    }
+    .about-me .profile .grid-container .item-7 i {
+        font-size: 30px;
+        padding-left: 1%;
+    }
+    .about-me .profile .grid-container .item-7 p {
+        font-size: 20px;
+        font-family: 'Redressed', cursive;
+    }
+    .about-me .profile .grid-container .item-8 i {
+        font-size: 30px;
+        padding-left: 1%;
+    }
+    .about-me .profile .grid-container .item-8 p {
+        font-size: 20px;
+        font-family: 'Redressed', cursive;
+    }
+    .Assignment .grid-container {
+        grid-template-columns: 100%;
+        grid-template-rows: 25% 25% 25% 25%;
+        padding-bottom: 50%;
+    }
+    .Assignment .item-1 {
+        width: 50%;
+    }
+    .Assignment .item-2 {
+        grid-column: 1 / span 1;
+        grid-row: 2 / span 1;
+        width: 50%;
+    }
+    .Assignment .item-3 {
+        grid-column: 1 / span 1;
+        grid-row: 3 / span 1;
+        width: 50%;
+    }
+    .Assignment .item-4 {
+        grid-column: 1 / span 1;
+        grid-row: 4 / span 1;
+        width: 50%;
+    }
+    .skill ul {
+        width: 50%;
+    }
+    .skill .show-work #all {
+        grid-template-columns: 50% 50%;
+        column-gap: 2%;
+        row-gap: 8%;
+        padding-bottom: 50%;
+    }
+    .skill .show-work #css {
+        grid-template-columns: 50% 50%;
+        column-gap: 2%;
+        row-gap: 8%;
+        padding-bottom: 50%;
+    }
+    .skill .show-work #java {
+        grid-template-columns: 50% 50%;
+        column-gap: 2%;
+        row-gap: 8%;
+        padding-bottom: 20%;
+    }
+    .skill .show-work .web-1 h1 {
+        font-size: 27px;
+        padding-left: 6%;
+    }
+    .skill .show-work .web-2 h1 {
+        font-size: 27px;
+        padding-left: 6%;
+    }
+    .skill .show-work .web-3 h1 {
+        font-size: 27px;
+        padding-left: 6%;
+    }
+    .skill .show-work .web-4 h1 {
+        font-size: 27px;
+        padding-left: 6%;
+    }
+    .skill .show-work .web-5 h1 {
+        font-size: 27px;
+        padding-left: 6%;
+    }
+    .skill .show-work .web-6 h1 {
+        font-size: 27px;
+        padding-left: 4%;
+    }
+    .skill .show-work .web-7 h1 {
+        font-size: 27px;
+        padding-left: 6%;
+    }
+    .skill .show-work .web-8 h1 {
+        font-size: 27px;
+        padding-left: 6%;
+    }
+    .skill .show-work .web-9 h1 {
+        font-size: 27px;
+        padding-left: 6%;
+    }
+    .skill .show-work .web-10 h1 {
+        font-size: 27px;
+        padding-left: 6%;
+    }
+    .skill .show-work .web-11 h1 {
+        font-size: 27px;
+        padding-left: 8%;
+    }
+}
+@media only screen and ( max-width: 540px ) {
+    .top-header .nav-bar .logo {
+        display: none;
+    }
+    .top-header .profile img {
+        width: 100%;
+        margin-top: 20%;
+    }
+    .about-me .profile .detail blockquote {
+        font-size: 20px;
+    }
+    .about-me .profile .detail .grid-container .item-1 i {
+        font-size: 20px;
+    }
+    .about-me .profile .detail .grid-container .item-1 p {
+        font-size: 15px;
+    }
+    .about-me .profile .detail .grid-container .item-2 i {
+        font-size: 20px;
+    }
+    .about-me .profile .detail .grid-container .item-2 p {
+        font-size: 15px;
+    }
+    .about-me .profile .detail .grid-container .item-3 i {
+        font-size: 20px;
+    }
+    .about-me .profile .detail .grid-container .item-3 p {
+        font-size: 15px;
+    }
+    .about-me .profile .detail .grid-container .item-4 i {
+        font-size: 20px;
+    }
+    .about-me .profile .detail .grid-container .item-4 p {
+        font-size: 15px;
+    }
+    .about-me .profile .detail .grid-container .item-5 i {
+        font-size: 20px;
+    }
+    .about-me .profile .detail .grid-container .item-5 p {
+        font-size: 15px;
+    }
+    .about-me .profile .detail .grid-container .item-6 i {
+        font-size: 20px;
+    }
+    .about-me .profile .detail .grid-container .item-6 p {
+        font-size: 15px;
+    }
+    .about-me .profile .detail .grid-container .item-7 i {
+        font-size: 20px;
+    }
+    .about-me .profile .detail .grid-container .item-7 p {
+        font-size: 15px;
+    }
+    .about-me .profile .detail .grid-container .item-8 i {
+        font-size: 20px;
+    }
+    .about-me .profile .detail .grid-container .item-8 p {
+        font-size: 15px;
+    }
+    .skill ul {
+        width: 100%;
+    }
+    .skill .show-work #all {
+        grid-template-columns: 100%;
+        row-gap: 3%;
+        padding-bottom: 1200px;
+    }
+    .skill .show-work #css {
+        grid-template-columns: 100%;
+        row-gap: 3%;
+        padding-bottom: 550px;
+    }
+    .skill .show-work #java {
+        grid-template-columns: 100%;
+        row-gap: 3%;
+        padding-bottom: 300px;
+    }
+    .contact .detail {
+        display: flex;
+        flex-direction: column;
+    }
+    .contact .detail iframe {
+        width: 100%;
+    }
+    .contact .detail .address {
+        width: 100%;
+    }
 }
 
 

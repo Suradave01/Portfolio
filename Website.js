@@ -4,6 +4,11 @@ const nav2 = document.getElementById('link-2');
 const nav3 = document.getElementById('link-3');
 const nav4 = document.getElementById('link-4');
 const nav5 = document.getElementById('link-5');
+const icon1 = document.getElementById('icon1');
+const icon2 = document.getElementById('icon2');
+const icon3 = document.getElementById('icon3');
+const icon4 = document.getElementById('icon4');
+const icon5 = document.getElementById('icon5');
 
 window.onscroll = () => {
     if (window.scrollY > 150) {
@@ -18,6 +23,11 @@ window.onscroll = () => {
         nav3.classList.remove('nav-3');
         nav4.classList.remove('nav-4')
         nav5.classList.remove('nav-5')
+        icon1.classList.add('icon1')
+        icon2.classList.remove('icon2');
+        icon3.classList.remove('icon3');
+        icon4.classList.remove('icon4');
+        icon5.classList.remove('icon5');
     }
     else if ( window.scrollY > 900 && window.scrollY < 2000) {
         nav1.classList.remove('nav-1');
@@ -25,6 +35,11 @@ window.onscroll = () => {
         nav3.classList.remove('nav-3');
         nav4.classList.remove('nav-4')
         nav5.classList.remove('nav-5')
+        icon1.classList.remove('icon1')
+        icon2.classList.add('icon2');
+        icon3.classList.remove('icon3');
+        icon4.classList.remove('icon4');
+        icon5.classList.remove('icon5');
     }
     else if ( window.scrollY > 2000 && window.scrollY < 2700 ) {
         nav1.classList.remove('nav-1');
@@ -32,6 +47,11 @@ window.onscroll = () => {
         nav3.classList.add('nav-3');
         nav4.classList.remove('nav-4')
         nav5.classList.remove('nav-5')
+        icon1.classList.remove('icon1')
+        icon2.classList.remove('icon2');
+        icon3.classList.add('icon3');
+        icon4.classList.remove('icon4');
+        icon5.classList.remove('icon5');
     }
     else if ( window.scrollY > 2700 && window.scrollY < 4500) {
         nav1.classList.remove('nav-1');
@@ -39,13 +59,23 @@ window.onscroll = () => {
         nav3.classList.remove('nav-3');
         nav4.classList.add('nav-4')
         nav5.classList.remove('nav-5')
+        icon1.classList.remove('icon1')
+        icon2.classList.remove('icon2');
+        icon3.classList.remove('icon3');
+        icon4.classList.add('icon4');
+        icon5.classList.remove('icon5');
     }
-    else if ( window.scrollY > 4900) {
+    else if ( window.scrollY > 2800) {
         nav1.classList.remove('nav-1');
         nav2.classList.remove('nav-2');
         nav3.classList.remove('nav-3');
         nav4.classList.remove('nav-4')
         nav5.classList.add('nav-5')
+        icon1.classList.remove('icon1')
+        icon2.classList.remove('icon2');
+        icon3.classList.remove('icon3');
+        icon4.classList.remove('icon4');
+        icon5.classList.add('icon5');
     }
 
 };
