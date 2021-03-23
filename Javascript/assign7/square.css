@@ -152,5 +152,44 @@ button:hover {
     display: none;
 }
 
+@media only screen and ( max-width: 1441px ) {
+    button {
+        top: 200px;
+        left: 780px;
+        width: 240px;
+    }
+    #game-container {
+        margin-top: 350px;
+        margin-left: 25%;
+    }
+    #timerClock p {
+        left: 200px;
+        top: 200px;
+    }
+    
+    #clock {
+        left: 200px;
+        top: 420px;
+    }
+    p:first-child {
+        top: 550px;
+        left: 150px;
+    }
+    
+    #numbox {
+        top: 730px;
+        left: 170px;
+    }
+    
+    p:nth-child(3) {
+        top: 780px;
+        left: 250px;
+    }
+    
+    select {
+        top: 930px;
+        left: 240px;
+    }
+}
 
 

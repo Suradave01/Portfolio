@@ -36,3 +36,11 @@ h1:hover {
     cursor: pointer;
 }
 
+@media only screen and ( max-width:1441px ) {
+    h1 {
+        top: 550px;
+        left: 320px;
+        border-radius: 40px;
+    }
+}
+
